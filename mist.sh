@@ -1,13 +1,9 @@
 #!/bin/bash
-clear
-./progress.sh "Checking for System Vulnaribilities...."
-./progress.sh "Checking for Network Loopholes...."
-./progress.sh "Setting up Exploits...."
-./progress.sh "Extracting Payloads...."
-./progress.sh "Completing Initialisation...."
-echo 'MIST Shell Initialised'
-sleep 0.25
+
+./init_check.sh
 ./rr.sh text_art
+echo
+echo
 printf 'Enter Username: '
 read username
 printf 'Enter Password: '
@@ -17,4 +13,6 @@ if [ "$username" = "wearemist" ] && [ "$password" = "password" ]; then
     echo 'Login Succesful'
     sleep 0.25
     ./mist_next.sh  
-fi;
+else
+	echo 'Authentication Failed'
+fi
