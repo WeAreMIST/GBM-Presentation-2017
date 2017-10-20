@@ -12,7 +12,7 @@ printf 'Enter Username: '
 read username
 printf 'Enter Password: '
 read -s password
-if [ "$username" = "darkoperator" ] && [ "$password" = "password" ]; then 
+if [ "$username" = "wearemist" ] && [ "$password" = "password" ]; then 
     echo ' '
     echo 'Login Succesful'
     sleep 0.25

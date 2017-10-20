@@ -10,7 +10,7 @@ clear
 read -s next
 clear
 cat anonymous | nms
-sleep(.05)
+read -s next
 clear
 ./rr.sh page4
 read -s next
