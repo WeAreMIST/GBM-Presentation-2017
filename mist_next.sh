@@ -31,4 +31,5 @@ for i in $(seq 5); do
 done
 sleep 6
 clear
-./matrix.sh
+cmatrix -bsC red
+

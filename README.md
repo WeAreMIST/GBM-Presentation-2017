@@ -9,6 +9,12 @@ $ cd ./no-more-secrets
 $ make nms
 $ sudo make install
 ```
+
+#### Install cmatrix:  
+```
+$ sudo apt install cmatrix
+```  
+
 Run the script using  
 ```$ ./mist.sh ``` or   
 ```$ bash mist.sh ```
