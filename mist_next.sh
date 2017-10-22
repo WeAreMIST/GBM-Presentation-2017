@@ -32,4 +32,4 @@ done
 sleep 6
 clear
 cmatrix -bsC red
-
+#./cmatrix
