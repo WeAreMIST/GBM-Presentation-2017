@@ -8,7 +8,6 @@ read -s next
 clear
 ./rr.sh page3
 read -s next
-clear
 cat anonymous | nms
 read -s next
 clear
