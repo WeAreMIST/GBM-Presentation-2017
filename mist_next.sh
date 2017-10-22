@@ -8,7 +8,8 @@ read -s next
 clear
 ./rr.sh page3
 read -s next
-cat anonymous | nms
+tput setaf 2
+cat anonymous | nms -f green
 read -s next
 clear
 ./rr.sh page4
