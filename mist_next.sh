@@ -16,11 +16,11 @@ read -s next
 clear
 ./rr.sh page5
 read -s next
-for i in $(seq 6); do
+clear
+for i in $(seq 4); do
 	xdotool key Ctrl+minus
 done
-clear
-cat logo_high_res | nms -f green
+cat logo_low_res | nms -f green
 read -s next
 clear
 xdotool key Ctrl+0
